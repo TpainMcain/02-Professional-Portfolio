@@ -1,21 +1,49 @@
-* {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-/* CSS styling for header/footer */
+/* Styling for header/footer */
 header, footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
     width: 100%;
     height: 120px;
-    background-color: rgba(62, 77, 145, 0.979);
     color: white;
     text-align: center;
     font-family: arial;
+    background-color: #333;
 }
 
-/* CSS styling for columns */
+/* Horizontal nav bar */
+ol,ul {
+	list-style: none;
+}
+
+#topnav {
+	margin:10px;
+	width:900px;
+	font-family: sans-serif;
+}
+#topnav li {
+	display:block;
+	width:120px;
+	float:left;
+	margin-left:2px;
+	border:1px solid #000;
+}
+
+#topnav a {
+	display:block;
+	padding:3px;
+	text-decoration:none;
+	background-color:#fff;
+	color:#009;
+}
+
+#topnav a:hover {
+	background-color:#009;
+	color:#fff;
+}
+
+/* Styling for columns */
   .some-page-wrapper {
     margin: 15px;
     background-color: rgb(255, 255, 255);
@@ -36,12 +64,21 @@ header, footer {
   }
   
   .column-one, .column-two {
-    background-color: rgb(192, 194, 202);
-    height: 100px;
+    height: 200px;
+    width: 85%;
     text-align: center;
     font-size: 30px;
     font-family: arial;
-    width: 60%;
-    margin: 20px auto;
-    border: 5px solid rgb(138, 135, 135);
+    margin: 10px auto;
+  }
+
+  /* Styling for images */
+  img {
+    display: flex;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
   }
