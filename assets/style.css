@@ -21,6 +21,7 @@ li {
 /* Styling for navbar */
 .navbar {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   padding: 20px;
@@ -102,7 +103,7 @@ li {
 
 .masthead {
   padding: 11em 0;
-  background-image: url("https://images.unsplash.com/photo-1512716679859-da19b4af9c38?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+  background-image: url("https://images8.alphacoders.com/876/876413.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -139,6 +140,7 @@ li {
 .questions-section > p {
   font-weight: 300;
   letter-spacing: 0.05em;
+  
 }
 
 /* Section Styling */
@@ -150,6 +152,7 @@ li {
   margin-left: auto;
   margin-right: auto;
   margin-top: 2em;
+  text-align: center;
 }
 
 .questions-section > h2 {
