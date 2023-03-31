@@ -1,8 +1,7 @@
-# Professional Portfolio
-Module-02-Challenge
+# 02-Professional Portfolio
 
 ## Description
-A professional portfolio for myself using CSS.
+A professional portfolio for myself utilizing CSS.
 
 ## Links
 https://tpainmcain.github.io/02-Professional-Portfolio/
